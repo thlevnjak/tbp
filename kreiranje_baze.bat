@@ -1,4 +1,4 @@
 echo "Zapocinje kreiranje baze..."
-psql -U postgres baza < baza.sql
+psql -U postgres postgres < baza.sql
 echo "Kreiranje baze zavrsilo!"
 pause
